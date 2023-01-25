@@ -12,4 +12,12 @@ export class LayoutComponent implements OnInit {
   ngOnInit() {
   }
 
+  public saveFile(fileName: string): void {
+    console.log('saveFile()', fileName);
+  }
+
+
+  public handleDismiss(dismissMethod: string): void {
+    console.log('handleDismiss()');
+  }
 }
